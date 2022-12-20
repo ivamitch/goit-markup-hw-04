@@ -174,7 +174,6 @@ section {
 }
 
 .hr-container {
-  display: block;
   max-width: 1440px;
 
   margin-right: auto;
@@ -215,12 +214,15 @@ section {
 
   display: inline;
 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   /* outline: solid 3px green; */
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .future-list {
@@ -418,6 +420,10 @@ section {
 
 .logo-location-bottom {
   display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 24px;
+  margin-left: 0;
 }
 
 .footer-media {
@@ -430,7 +436,7 @@ section {
   color: #ffffff;
 
   margin-left: 120px;
-  margin-top: 18px;
+  /* margin-top: 18px; */
   /* padding-bottom: 100px; */
 }
 
@@ -443,7 +449,7 @@ section {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 
   margin-top: 12px;
   /* margin-left: 16px; */
@@ -513,10 +519,11 @@ section {
 
 .services-button:hover,
 .services-button:focus {
-  border: 1px solid;
   border-color: transparent;
   color: #ffffff;
   background-color: var(--primaty-brand);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .service-example {
@@ -533,6 +540,22 @@ section {
   margin-bottom: 48px;
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
+
+.service-example li a {
+  text-decoration: none;
+
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+
+/* .service-example li a:hover,
+.service-example li a:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+} */
+
+/* .service-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+} */
 
 .service-example li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
