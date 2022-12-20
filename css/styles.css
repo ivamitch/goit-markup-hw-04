@@ -234,6 +234,40 @@ section {
   margin-right: 24px;
 }
 
+.future-list .list::before {
+  display: block;
+  content: "";
+
+  height: 112px;
+  background-color: var(--light);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.future-list .list:nth-child(1)::before {
+  background-image: url(../images/our-future/antenna\ 1.svg);
+  background-size: 64px;
+}
+
+.future-list .list:nth-child(2)::before {
+  background-image: url(../images/our-future/clock\ 1.svg);
+  background-size: 64px;
+}
+
+.future-list .list:nth-child(3)::before {
+  background-image: url(../images/our-future/diagram\ 1.svg);
+  background-size: 64px;
+}
+
+.future-list .list:nth-child(4)::before {
+  background-image: url(../images/our-future/astronaut\ 1.svg);
+  background-size: 64px;
+}
+
 .future-list li {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
