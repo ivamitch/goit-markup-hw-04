@@ -352,23 +352,25 @@ section {
   border-radius: 50%;
 
   /* background-color: red; */
-  fill: var(--subtle-text);
-}
-
-.member-link:hover {
-  background-color: var(--primaty-brand);
   fill: var(--light);
+  background-color: var(--primaty-brand);
 }
 
+.member-link:hover,
 .member-link:focus {
-  background-color: var(--primaty-brand);
-  fill: var(--light);
+  background-color: #404BBF;
+  /* fill: var(--light); */
 }
 
-/* .social-icon {
-  width: 160px;
-  height: 16px; 
+/* .member-link:focus {
+  background-color: var(--primaty-brand);
+  fill: var(--light);
 } */
+
+.social-icon {
+  width: 16px;
+  height: 16px; 
+}
 
 .customers-list .item {
   width: 168px;
