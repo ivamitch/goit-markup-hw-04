@@ -358,7 +358,7 @@ section {
 
 .member-link:hover,
 .member-link:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
   /* fill: var(--light); */
 }
 
@@ -369,7 +369,7 @@ section {
 
 .social-icon {
   width: 16px;
-  height: 16px; 
+  height: 16px;
 }
 
 .customers-list .item {
